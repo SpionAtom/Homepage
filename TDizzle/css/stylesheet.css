@@ -8,20 +8,22 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #EBD4B5;
+  background-color: #93BCBE;
 }
 h1 {
 	color: white;
   background-color: #5D8B9B;
 	text-align: center;
 	font-family: europe;
-	font-size: 5em;
+	font-size: 3em;
 	letter-spacing: 0.1em;
 	font-style: bold;
 	font-variant: normal;
 	font-weight: 5000;
 	line-height: 1.2em;
-	margin: 0;	
+	padding: 0.25em;
+  border-top: thick solid #4C7A8A;
+  border-bottom: thick solid #6E9CAC;
 }
 
 #menu {
@@ -33,6 +35,7 @@ h1 {
 }
 
 nav {
+  visibility: hidden;
   background-color: #EAAE8C;
   margin: 0;
 }
@@ -59,4 +62,12 @@ li {
 li:hover {
   background-color: #CB5E5B;
   cursor: pointer;
+}
+
+.title {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -130px;
 }
