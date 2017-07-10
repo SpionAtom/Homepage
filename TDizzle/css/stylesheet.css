@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ccffcc;
+}
+h1 {
+  font-family: "Helvetica", Times, serif;
+  font-size: 40px;
+  color: white;
+  background-color: #00cc88;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+#menu {
+  text-align: center;
+}
+
+#CanvasBox {
+  text-align: center;
+}

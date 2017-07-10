@@ -1,0 +1,38 @@
+ @font-face { font-family: europe; src: url('assets/EuropeUnderground_light.ttf'); } 
+
+body {
+	margin: 0;
+    background-color: black;
+}
+
+#div_site {
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 720px;
+	height: 150%;
+	margin: 0 auto 0;
+	background-color: #262830;
+	transform: rotate(1deg);
+	transform-origin: left top 0;
+}
+
+.delimiter {
+	margin: 0;
+	height: 32px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-family: europe;
+	font-size: 64px;
+	letter-spacing: 4px;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	margin: 0;
+	padding: 0;
+}
+
