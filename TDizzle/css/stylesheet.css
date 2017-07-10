@@ -1,16 +1,27 @@
+ /*
+ http://www.colourlovers.com/palette/4513569/nature_fashion
+ http://www.dafont.com/de/europe-underground.font
+ */
+ 
+ @font-face { font-family: europe; src: url('EuropeUnderground_light.ttf'); } 
+ 
 body {
   margin: 0;
   padding: 0;
-  background-color: #ccffcc;
+  background-color: #EBD4B5;
 }
 h1 {
-  font-family: "Helvetica", Times, serif;
-  font-size: 40px;
-  color: white;
-  background-color: #00cc88;
-  text-align: center;
-  margin-top: 0;
-  padding-top: 20px;
+	color: white;
+  background-color: #5D8B9B;
+	text-align: center;
+	font-family: europe;
+	font-size: 5em;
+	letter-spacing: 0.1em;
+	font-style: bold;
+	font-variant: normal;
+	font-weight: 5000;
+	line-height: 1.2em;
+	margin: 0;	
 }
 
 #menu {
@@ -19,4 +30,27 @@ h1 {
 
 #CanvasBox {
   text-align: center;
+}
+
+nav {
+  background-color: #EAAE8C;
+  margin: 0;
+}
+
+ul {
+  text-align: center;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: 1em;
+  line-height: 2em;
+}
+
+li:hover {
+  background-color: #CB5E5B;
+  cursor: pointer;
 }
