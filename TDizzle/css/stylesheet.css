@@ -42,6 +42,12 @@ ul {
   margin: 0;
 }
 
+.menu_icon {
+  font-size: 2em;
+  /* background-color: #CB5E5B;
+  */
+}
+
 li {
   list-style-type: none;
   display: inline-block;
